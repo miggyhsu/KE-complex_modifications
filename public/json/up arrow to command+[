@@ -1,0 +1,24 @@
+{
+  "title": “Up arrow to Command + [“,
+  "rules": [
+    {
+      "description": "Command-L/Command-R + Esc to Command + ` ",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": “up_arrow”
+          },
+          "to": [
+            {
+              "key_code": “open_bracket”,
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
