@@ -1,0 +1,24 @@
+{
+  "title": “Down arrow to Command + ]“,
+  "rules": [
+    {
+      "description": "Down arrow to Command + ]",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": “down_arrow”
+          },
+          "to": [
+            {
+              "key_code": “close_bracket”,
+              "modifiers": [
+                "command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
